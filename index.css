@@ -695,16 +695,17 @@ input[type="submit"]:hover {
     margin-bottom: 50px;
   }
 
+  #resume {
+    display: none;
+  }
+
   #resume img {
     display: none;
   }
 
   .resumeBtn {
-    display: grid;
-    grid-area: resumeButton;
-    padding: 35px;
-    padding-right: 35%;
-    padding-left: 35%;
+    display: flex;
+    justify-content: center;
   }
 
   #resumeButton {
