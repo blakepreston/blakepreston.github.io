@@ -519,9 +519,8 @@ input[type="submit"]:hover {
 }
 
 #footer p {
-  text-align: right;
+  text-align: center;
   padding-top: 5px;
-  padding-right: 15px;
 }
 
 .side_nav {
