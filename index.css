@@ -495,10 +495,11 @@ input[type="submit"]:hover {
 #resume {
   grid-area: resume;
   display: flex;
-  padding-top: 140px;
+  padding-top: 120px;
   background-color: #fdf8f5;
   padding-bottom: 120px;
   margin: -10px;
+  justify-content: center;
 }
 
 #resume img {
