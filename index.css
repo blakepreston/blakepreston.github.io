@@ -349,6 +349,17 @@ input[type="submit"]:hover {
   display: flex;
 }
 
+@keyframes resume {
+  from {
+    transform: translateY(-50px);
+    opacity: 0.75;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 @keyframes content3 {
   from {
     transform: translateX(-50px);

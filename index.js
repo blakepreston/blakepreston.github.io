@@ -50,6 +50,23 @@ menuBtn.addEventListener("click", () => {
 
 /**************************/
 
+const resume = document.querySelector('.resume');
+
+observor = new IntersectionObserver((entries) => {
+  console.log(entries);
+
+  if(entries[0].intersectionRatio > 0) {
+    entries[0].target.style.animation = `resume 500ms forwards ease-out`;
+
+  }else{
+    entries[0].target.style.animation = 'none';
+  }
+})
+
+observor.observe(resume);
+
+/**************************/
+
 const cont3 = document.querySelector('.content3');
 
 observor = new IntersectionObserver((entries) => {
