@@ -47,3 +47,122 @@ menuBtn.addEventListener("click", () => {
     menuOpen = false;
   }
 });
+
+const cont4 = document.querySelector('.content4');
+
+observor = new IntersectionObserver((entries) => {
+  console.log(entries);
+
+  if(entries[0].intersectionRatio > 0) {
+    entries[0].target.style.animation = `content4 500ms forwards ease-out`;
+
+  }else{
+    entries[0].target.style.animation = 'none';
+  }
+})
+
+observor.observe(cont4);
+
+/**************************/
+
+const cont5 = document.querySelector('.content5');
+
+observor = new IntersectionObserver((entries) => {
+  console.log(entries);
+
+  if(entries[0].intersectionRatio > 0) {
+    entries[0].target.style.animation = `content5 500ms forwards ease-out`;
+
+  }else{
+    entries[0].target.style.animation = 'none';
+  }
+})
+
+observor.observe(cont5);
+
+/**************************/
+
+const cont6 = document.querySelector('.content6');
+
+observor = new IntersectionObserver((entries) => {
+  console.log(entries);
+
+  if(entries[0].intersectionRatio > 0) {
+    entries[0].target.style.animation = `content6 500ms forwards ease-out`;
+
+  }else{
+    entries[0].target.style.animation = 'none';
+  }
+})
+
+observor.observe(cont6);
+
+/**************************/
+
+const cont7 = document.querySelector('.content7');
+
+observor = new IntersectionObserver((entries) => {
+  console.log(entries);
+
+  if(entries[0].intersectionRatio > 0) {
+    entries[0].target.style.animation = `content7 500ms forwards ease-out`;
+
+  }else{
+    entries[0].target.style.animation = 'none';
+  }
+})
+
+observor.observe(cont7);
+
+/**************************/
+
+const cont8 = document.querySelector('.content8');
+
+observor = new IntersectionObserver((entries) => {
+  console.log(entries);
+
+  if(entries[0].intersectionRatio > 0) {
+    entries[0].target.style.animation = `content8 500ms forwards ease-out`;
+
+  }else{
+    entries[0].target.style.animation = 'none';
+  }
+})
+
+observor.observe(cont8);
+
+/**************************/
+
+const cont9 = document.querySelector('.content9');
+
+observor = new IntersectionObserver((entries) => {
+  console.log(entries);
+
+  if(entries[0].intersectionRatio > 0) {
+    entries[0].target.style.animation = `content9 500ms forwards ease-out`;
+
+  }else{
+    entries[0].target.style.animation = 'none';
+  }
+})
+
+observor.observe(cont9);
+
+/**************************/
+
+const cont10 = document.querySelector('.content10');
+
+observor = new IntersectionObserver((entries) => {
+  console.log(entries);
+
+  if(entries[0].intersectionRatio > 0) {
+    entries[0].target.style.animation = `content10 500ms forwards ease-out`;
+
+  }else{
+    entries[0].target.style.animation = 'none';
+  }
+})
+
+observor.observe(cont10);
+
+
