@@ -48,6 +48,25 @@ menuBtn.addEventListener("click", () => {
   }
 });
 
+/**************************/
+
+const cont3 = document.querySelector('.content3');
+
+observor = new IntersectionObserver((entries) => {
+  console.log(entries);
+
+  if(entries[0].intersectionRatio > 0) {
+    entries[0].target.style.animation = `content3 500ms forwards ease-out`;
+
+  }else{
+    entries[0].target.style.animation = 'none';
+  }
+})
+
+observor.observe(cont3);
+
+/**************************/
+
 const cont4 = document.querySelector('.content4');
 
 observor = new IntersectionObserver((entries) => {
