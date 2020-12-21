@@ -156,6 +156,18 @@ input[type="submit"]:hover {
   opacity: 90%;
   border-radius: 5%;
   box-shadow: 10px 10px #4f4846;
+  animation: picLoad 400ms;
+}
+
+/*Learning how to use animations in CSS*/
+
+@keyframes picLoad {
+  0% {
+    transform: translateX(-150%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 #main {
@@ -244,6 +256,16 @@ input[type="submit"]:hover {
   margin-left: 20px;
   opacity: 90%;
   border-radius: 1%;
+  animation: socialLoad 500ms;
+}
+
+@keyframes socialLoad {
+  0% {
+    transform: translateX(150%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 #content8 img {
@@ -694,6 +716,16 @@ input[type="submit"]:hover {
   #content3 img {
     margin: auto;
     margin-bottom: 50px;
+    animation: socialLoad 400ms;
+  }
+
+  @keyframes socialLoad {
+    0% {
+      transform: translateY(-150%);
+    }
+    100% {
+      transform: translateY(0);
+    }
   }
 
   #resume {
