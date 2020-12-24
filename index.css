@@ -319,7 +319,7 @@ input[type="submit"]:hover {
 }
 
 #projects hr {
-  width: 8%;
+  width: 130px;
   margin-left: auto;
   margin-right: auto;
   height: 15px;
@@ -329,7 +329,7 @@ input[type="submit"]:hover {
 }
 
 #contact-me hr {
-  width: 22%;
+  width: 180px;
   margin-left: auto;
   margin-right: auto;
   height: 15px;
@@ -805,7 +805,7 @@ input[type="submit"]:hover {
   }
 
   #contact-me hr {
-    width: 37%;
+    width: 190px;
     margin-left: auto;
     margin-right: auto;
     height: 15px;
@@ -815,7 +815,7 @@ input[type="submit"]:hover {
   }
 
   #projects hr {
-    width: 15%;
+    width: 130px;
     margin-left: auto;
     margin-right: auto;
     height: 15px;
