@@ -56,7 +56,7 @@ observor = new IntersectionObserver((entries) => {
   console.log(entries);
 
   if(entries[0].intersectionRatio > 0) {
-    entries[0].target.style.animation = `resume 500ms forwards ease-out`;
+    entries[0].target.style.animation = `resume 1s forwards ease-out`;
 
   }else{
     entries[0].target.style.animation = 'none';
@@ -73,7 +73,7 @@ observor = new IntersectionObserver((entries) => {
   console.log(entries);
 
   if(entries[0].intersectionRatio > 0) {
-    entries[0].target.style.animation = `content3 500ms forwards ease-out`;
+    entries[0].target.style.animation = `content3 1s forwards ease-out`;
 
   }else{
     entries[0].target.style.animation = 'none';
@@ -90,7 +90,7 @@ observor = new IntersectionObserver((entries) => {
   console.log(entries);
 
   if(entries[0].intersectionRatio > 0) {
-    entries[0].target.style.animation = `content4 500ms forwards ease-out`;
+    entries[0].target.style.animation = `content4 1s forwards ease-out`;
 
   }else{
     entries[0].target.style.animation = 'none';
@@ -107,7 +107,7 @@ observor = new IntersectionObserver((entries) => {
   console.log(entries);
 
   if(entries[0].intersectionRatio > 0) {
-    entries[0].target.style.animation = `content5 500ms forwards ease-out`;
+    entries[0].target.style.animation = `content5 1s forwards ease-out`;
 
   }else{
     entries[0].target.style.animation = 'none';
@@ -124,7 +124,7 @@ observor = new IntersectionObserver((entries) => {
   console.log(entries);
 
   if(entries[0].intersectionRatio > 0) {
-    entries[0].target.style.animation = `content6 500ms forwards ease-out`;
+    entries[0].target.style.animation = `content6 1s forwards ease-out`;
 
   }else{
     entries[0].target.style.animation = 'none';
@@ -141,7 +141,7 @@ observor = new IntersectionObserver((entries) => {
   console.log(entries);
 
   if(entries[0].intersectionRatio > 0) {
-    entries[0].target.style.animation = `content7 500ms forwards ease-out`;
+    entries[0].target.style.animation = `content7 1s forwards ease-out`;
 
   }else{
     entries[0].target.style.animation = 'none';
@@ -158,7 +158,7 @@ observor = new IntersectionObserver((entries) => {
   console.log(entries);
 
   if(entries[0].intersectionRatio > 0) {
-    entries[0].target.style.animation = `content8 500ms forwards ease-out`;
+    entries[0].target.style.animation = `content8 1s forwards ease-out`;
 
   }else{
     entries[0].target.style.animation = 'none';
@@ -175,7 +175,7 @@ observor = new IntersectionObserver((entries) => {
   console.log(entries);
 
   if(entries[0].intersectionRatio > 0) {
-    entries[0].target.style.animation = `content9 500ms forwards ease-out`;
+    entries[0].target.style.animation = `content9 1s forwards ease-out`;
 
   }else{
     entries[0].target.style.animation = 'none';
@@ -192,7 +192,7 @@ observor = new IntersectionObserver((entries) => {
   console.log(entries);
 
   if(entries[0].intersectionRatio > 0) {
-    entries[0].target.style.animation = `content10 500ms forwards ease-out`;
+    entries[0].target.style.animation = `content10 1s forwards ease-out`;
 
   }else{
     entries[0].target.style.animation = 'none';

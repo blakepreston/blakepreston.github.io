@@ -72,8 +72,9 @@ html {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.2fr 1.5fr 1.2fr 0.6fr 1fr 3fr 0.3fr 1fr 1fr;
   gap: 0.1rem;
-  font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans,
-    Tahoma, sans-serif;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
   color: #3c403d;
   text-rendering: optimizeLegibility;
   grid-template-areas:
@@ -101,6 +102,7 @@ html {
 }
 
 #contact-me h1 {
+  text-align: center;
   grid-area: contact-me;
   padding-top: 5%;
   color: #4f4846;
@@ -156,7 +158,7 @@ input[type="submit"]:hover {
   opacity: 90%;
   border-radius: 5%;
   box-shadow: 10px 10px #4f4846;
-  animation: picLoad 400ms;
+  animation: picLoad 1s;
 }
 
 /*Learning how to use animations in CSS*/
@@ -207,9 +209,38 @@ input[type="submit"]:hover {
 }
 
 #content2 li {
-  list-style-type: square;
-  padding-left: 50px;
+  list-style: none;
   font-size: 18px;
+  padding: 20px;
+  padding-left: 15%;
+}
+
+.pythonLogo {
+  background-image: url("pythonLogo.png");
+  background-repeat: no-repeat;
+  background-position: 5%;
+  background-size: 40px;
+}
+
+.javaScriptLogo {
+  background-image: url("javaScriptLogo.png");
+  background-repeat: no-repeat;
+  background-position: 5%;
+  background-size: 40px;
+}
+
+.JavaLogo {
+  background-image: url("JavaLogo.png");
+  background-repeat: no-repeat;
+  background-position: 5%;
+  background-size: 40px;
+}
+
+.CsharpLogo {
+  background-image: url("CsharpLogo.png");
+  background-repeat: no-repeat;
+  background-position: 5%;
+  background-size: 40px;
 }
 
 #content9 {
@@ -251,7 +282,7 @@ input[type="submit"]:hover {
 #content3 img {
   padding-left: 60px;
   display: block;
-  height: 60px;
+  height: 50px;
   margin-top: 40px;
   margin-left: 20px;
   opacity: 90%;
@@ -285,6 +316,26 @@ input[type="submit"]:hover {
 
 #projects h1 {
   text-align: center;
+}
+
+#projects hr {
+  width: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 15px;
+  background-color: #ebe8e1;
+  border: none;
+  margin-top: -38px;
+}
+
+#contact-me hr {
+  width: 22%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 15px;
+  background-color: #ebe8e1;
+  border: none;
+  margin-top: -38px;
 }
 
 #budgetDesc {
@@ -714,6 +765,34 @@ input[type="submit"]:hover {
       "footer";
   }
 
+  .pythonLogo {
+    background-image: url("pythonLogo.png");
+    background-repeat: no-repeat;
+    background-position: 30%;
+    background-size: 40px;
+  }
+
+  .javaScriptLogo {
+    background-image: url("javaScriptLogo.png");
+    background-repeat: no-repeat;
+    background-position: 30%;
+    background-size: 40px;
+  }
+
+  .JavaLogo {
+    background-image: url("JavaLogo.png");
+    background-repeat: no-repeat;
+    background-position: 30%;
+    background-size: 40px;
+  }
+
+  .CsharpLogo {
+    background-image: url("CsharpLogo.png");
+    background-repeat: no-repeat;
+    background-position: 30%;
+    background-size: 40px;
+  }
+
   @keyframes content3 {
     from {
       transform: translateY(-50px);
@@ -723,6 +802,26 @@ input[type="submit"]:hover {
       transform: translateY(0);
       opacity: 1;
     }
+  }
+
+  #contact-me hr {
+    width: 37%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15px;
+    background-color: #ebe8e1;
+    border: none;
+    margin-top: -38px;
+  }
+
+  #projects hr {
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15px;
+    background-color: #ebe8e1;
+    border: none;
+    margin-top: -38px;
   }
 
   #main {
@@ -812,8 +911,7 @@ input[type="submit"]:hover {
   }
 
   #content2 li {
-    list-style-type: square;
-    padding-left: 25%;
+    padding-left: 45%;
     font-size: 18px;
   }
 
