@@ -9,6 +9,141 @@ html {
   scroll-behavior: smooth;
 }
 
+/******************************************/
+.projectContainer {
+  width: 550px;
+  height: 600px;
+  margin: 30px;
+  background-color: #ebe8e1;
+  border-radius: 15px;
+}
+
+.colordetect {
+  height: 220px;
+  margin-left: 15%;
+}
+
+.epidemicImg {
+  height: 220px;
+  margin-left: 15%;
+}
+
+.arcGis {
+  height: 250px;
+  margin-left: 20%;
+}
+
+.budgetApp {
+  height: 220px;
+  margin-left: 15%;
+}
+
+.floydWarshall {
+  height: 220px;
+  margin-left: 12%;
+}
+
+.logisim {
+  height: 250px;
+  margin-left: 23%;
+  width: 300px;
+}
+
+.carGame {
+  height: 250px;
+  margin-left: 31%;
+  width: 215px;
+}
+
+.projectContainer h3 {
+  color: #555a57;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.projectContainer h3 {
+  background-color: #949c96;
+  position: relative;
+  transform: translateZ(0);
+  transition: color 1000ms;
+}
+
+.projectContainer h3:before {
+  content: "";
+  background-color: #26c485;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: scaleX(0);
+  transform-origin: 0% 0%;
+  transition-property: transform;
+  transition: 300ms ease-out;
+}
+.projectContainer h3:hover:before {
+  transform: scaleY(1);
+}
+
+.python1 {
+  width: 35px;
+  margin-left: 5%;
+}
+
+.python2 {
+  width: 35px;
+  margin-left: 5%;
+}
+
+.projectContainer p {
+  color: #656b67;
+  padding: 0px 20px;
+  margin-top: 10px;
+}
+
+.gitHub {
+  background-color: #3c403d;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 35%;
+}
+
+.gitHub:hover {
+  background-color: #232524;
+  transition-duration: 500ms;
+}
+
+.tryIt {
+  background-color: #26c485;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10%;
+  margin-left: 12%;
+}
+
+.tryIt:hover {
+  background-color: #197e55;
+  transition-duration: 500ms;
+}
+/***************************************/
+
 .menu-btn {
   position: fixed;
   display: flex;
@@ -81,13 +216,13 @@ html {
     "content1 content2 content2 content3"
     "projects projects projects projects"
     "content4 content4 content5 content5"
-    "budgetDesc budgetDesc gisDesc gisDesc"
+    ". .  . ."
     "content6 content6 content7 content7"
-    "diceDesc diceDesc stripsDesc stripsDesc"
+    ". . . ."
     "content8 content8 content9 content9"
-    "algorithmDesc algorithmDesc logisimDesc logisimDesc"
+    ". . . ."
     ". content10 content10 ."
-    ". raceDesc raceDesc ."
+    ". . . ."
     "resume resume resume resume"
     ". contact-me contact-me ."
     "footer footer footer footer";
@@ -294,32 +429,12 @@ input[type="submit"]:hover {
 
 #content9 {
   grid-area: content9;
-}
-
-#content9 p {
-  padding: 15px;
-  font-size: 18px;
-}
-
-#content9 li {
-  list-style-type: square;
-  padding-left: 50px;
-  font-size: 18px;
+  margin: auto;
 }
 
 #content10 {
   grid-area: content10;
-}
-
-#content10 p {
-  padding: 15px;
-  font-size: 18px;
-}
-
-#content10 li {
-  list-style-type: square;
-  padding-left: 50px;
-  font-size: 18px;
+  margin: auto;
 }
 
 #content3 {
@@ -346,15 +461,6 @@ input[type="submit"]:hover {
   100% {
     transform: translateY(0);
   }
-}
-
-#content8 img {
-  height: 200px;
-  margin-top: 40px;
-  margin-left: 20px;
-  opacity: 90%;
-  border-radius: 1%;
-  box-shadow: 10px 10px #266150;
 }
 
 #projects {
@@ -387,66 +493,10 @@ input[type="submit"]:hover {
   margin-top: -38px;
 }
 
-#budgetDesc {
-  grid-area: budgetDesc;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 400px;
-  margin: auto;
-}
-
-#gisDesc {
-  grid-area: gisDesc;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 400px;
-  margin: auto;
-}
-
-#diceDesc {
-  grid-area: diceDesc;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 400px;
-  margin: auto;
-}
-
-#algorithmDesc {
-  grid-area: algorithmDesc;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 400px;
-  margin: auto;
-}
-
-#logisimDesc {
-  grid-area: logisimDesc;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 400px;
-  margin: auto;
-}
-
-#raceDesc {
-  grid-area: raceDesc;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 400px;
-  margin: auto;
-  padding-bottom: 70px;
-}
-
-#stripsDesc {
-  grid-area: stripsDesc;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 400px;
-  margin: auto;
-}
-
 #content4 {
   grid-area: content4;
   display: flex;
+  margin: auto;
 }
 
 @keyframes resume {
@@ -551,166 +601,38 @@ input[type="submit"]:hover {
 #content5 {
   grid-area: content5;
   display: flex;
+  margin: auto;
 }
 
 #content6 {
   grid-area: content6;
   display: flex;
+  margin: auto;
 }
 
 #content7 {
   grid-area: content7;
   display: flex;
+  margin: auto;
 }
 
 #content8 {
   grid-area: content8;
   display: flex;
+  margin: auto;
 }
 
 #content9 {
   grid-area: content9;
   display: flex;
+  margin: auto;
 }
 
 #content10 {
   grid-area: content10;
   display: flex;
-}
-
-#content4 img {
-  padding: 5px;
-  height: 250px;
   margin: auto;
-  background-color: #4f4846;
-  opacity: 0.9;
-  border-radius: 1%;
-  box-shadow: 10px 10px #266150;
-}
-
-#content8 img {
-  padding: 5px;
-  height: 250px;
-  margin: auto;
-  background-color: #4f4846;
-  opacity: 0.9;
-  border-radius: 1%;
-  box-shadow: 10px 10px #266150;
-}
-
-#content4 img:hover {
-  opacity: 1;
-  transition-duration: 200ms;
-}
-
-#content4 a {
-  padding: 5px;
-  height: 250px;
-  margin: auto;
-}
-
-#content5 img {
-  padding: 5px;
-  height: 250px;
-  margin: auto;
-  background-color: #4f4846;
-  opacity: 0.9;
-  border-radius: 1%;
-  box-shadow: 10px 10px #266150;
-}
-
-#content5 img:hover {
-  opacity: 1;
-  transition-duration: 200ms;
-}
-
-#content8 img:hover {
-  opacity: 1;
-  transition-duration: 200ms;
-}
-
-#content5 a {
-  padding: 5px;
-  height: 250px;
-  margin: auto;
-}
-
-#content6 img {
-  padding: 5px;
-  height: 250px;
-  margin: auto;
-  background-color: #4f4846;
-  opacity: 0.9;
-  border-radius: 1%;
-  box-shadow: 10px 10px #266150;
-}
-
-#content6 img:hover {
-  opacity: 1;
-  transition-duration: 200ms;
-}
-
-#content7 img {
-  padding: 5px;
-  height: 250px;
-  margin: auto;
-  background-color: #4f4846;
-  opacity: 0.9;
-  border-radius: 1%;
-  box-shadow: 10px 10px #266150;
-}
-
-#content7 a {
-  padding: 5px;
-  height: 250px;
-  margin: auto;
-}
-
-#content7 img:hover {
-  opacity: 1;
-  transition-duration: 200ms;
-}
-
-#content9 img {
-  padding: 5px;
-  height: 250px;
-  margin: auto;
-  background-color: #4f4846;
-  opacity: 0.9;
-  border-radius: 1%;
-  box-shadow: 10px 10px #266150;
-}
-
-#content9 a {
-  padding: 5px;
-  height: 250px;
-  margin: auto;
-}
-
-#content9 img:hover {
-  opacity: 1;
-  transition-duration: 200ms;
-}
-
-#content10 img {
-  padding: 5px;
-  height: 250px;
-  margin: auto;
-  background-color: #4f4846;
-  opacity: 0.9;
-  border-radius: 1%;
-  box-shadow: 10px 10px #266150;
-}
-
-#content10 a {
-  padding: 5px;
-  height: 250px;
-  margin: auto;
-}
-
-#content10 img:hover {
-  opacity: 1;
-  transition-duration: 200ms;
+  margin-bottom: 10%;
 }
 
 #resume {
@@ -727,9 +649,18 @@ input[type="submit"]:hover {
   height: 700px;
   margin: 20px;
   margin: auto;
+  position: relative;
+  right: 15%;
   border-radius: 1%;
   background-color: #4f4846;
   box-shadow: 10px 10px #266150;
+}
+
+#resume h1 {
+  justify-content: center;
+  position: relative;
+  top: -15%;
+  left: 15%;
 }
 
 .resumeBtn {
@@ -796,19 +727,12 @@ input[type="submit"]:hover {
       "content3"
       "projects"
       "content4"
-      "budgetDesc"
       "content5"
-      "gisDesc"
       "content6"
-      "diceDesc"
       "content7"
-      "stripsDesc"
       "content8"
-      "algorithmDesc"
       "content9"
-      "logisimDesc"
       "content10"
-      "raceDesc"
       "resumeButton"
       "contact-me"
       "footer";
@@ -926,41 +850,6 @@ input[type="submit"]:hover {
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
-  }
-
-  #budgetDesc p {
-    margin: auto;
-    width: 400px;
-    padding-top: 20px;
-    padding-bottom: 50px;
-  }
-
-  #gisDesc p {
-    margin: auto;
-    width: 315px;
-    padding-top: 20px;
-    padding-bottom: 50px;
-  }
-
-  #diceDesc p {
-    margin: auto;
-    width: 400px;
-    padding-top: 20px;
-    padding-bottom: 50px;
-  }
-
-  #stripsDesc p {
-    margin: auto;
-    width: 350px;
-    padding-top: 20px;
-    padding-bottom: 50px;
-  }
-
-  #algorithmDesc p {
-    margin: auto;
-    width: 350px;
-    padding-top: 20px;
-    padding-bottom: 50px;
   }
 
   #sideBar {
