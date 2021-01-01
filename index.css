@@ -105,7 +105,7 @@ html {
 }
 
 .gitHub {
-  background-color: #3c403d;
+  background-color: #04484f;
   border-radius: 5px;
   border: none;
   color: white;
@@ -497,6 +497,13 @@ input[type="submit"]:hover {
   grid-area: content4;
   display: flex;
   margin: auto;
+}
+
+#content4 button {
+  background-image: url(/githubLogo.png);
+  background-size: 30px;
+  background-position: 1px;
+  background-repeat: no-repeat;
 }
 
 @keyframes resume {
