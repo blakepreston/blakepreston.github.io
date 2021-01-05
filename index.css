@@ -656,18 +656,14 @@ input[type="submit"]:hover {
   height: 700px;
   margin: 20px;
   margin: auto;
-  position: relative;
-  right: 15%;
   border-radius: 1%;
   background-color: #4f4846;
   box-shadow: 10px 10px #266150;
 }
 
 #resume h1 {
-  justify-content: center;
-  position: relative;
-  top: -15%;
-  left: 15%;
+  position: absolute;
+  margin-top: -80px;
 }
 
 .resumeBtn {
