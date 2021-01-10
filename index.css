@@ -143,11 +143,6 @@ html {
   transition-duration: 500ms;
 }
 /***************************************/
-body.mobile-fix .section .background-image.background-image-fixed {
-  background-attachment: scroll !important;
-}
-
-/***************************************/
 
 .menu-btn {
   position: fixed;
