@@ -732,6 +732,7 @@ input[type="submit"]:hover {
   .sideBar,
   .main {
     background-attachment: initial;
+    background-size: 100px;
   }
 }
 
