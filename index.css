@@ -727,15 +727,6 @@ input[type="submit"]:hover {
   cursor: pointer;
 }
 
-@media (hover: none) {
-  .navBar,
-  .sideBar,
-  .main {
-    background-attachment: initial;
-    background-size: 100px;
-  }
-}
-
 @media only screen and (max-width: 1200px) {
   .wrapper {
     grid-template-columns: 1fr;
