@@ -160,9 +160,9 @@ html {
 .menu-btn_hamburger {
   width: 50px;
   height: 6px;
-  background: #4f4846;
+  background: white;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.8);
   transition: all 0.5s ease-in-out;
 }
 
@@ -172,9 +172,9 @@ html {
   position: absolute;
   width: 50px;
   height: 6px;
-  background: black;
+  background: white;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.8);
   transition: all 0.5s ease-in-out;
 }
 
@@ -206,7 +206,7 @@ html {
   display: grid;
   height: 100vh;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0.2fr 1.5fr 1.2fr 0.6fr 1fr 3fr 0.3fr 1fr 1fr;
+  grid-template-rows: 1fr 1.5fr 1.2fr 0.6fr 1fr 3fr 0.3fr 1fr 1fr;
   gap: 0.1rem;
   color: #3c403d;
   text-rendering: optimizeLegibility;
@@ -226,6 +226,19 @@ html {
     "resume resume resume resume"
     ". contact-me contact-me ."
     "footer footer footer footer";
+}
+
+#navBar,
+#sideBar,
+#main {
+  background-image: url("websiteBackground.JPG");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-position-y: 70%;
+  background-position-x: 30%;
+  margin: -1px;
+  background-size: cover;
 }
 
 #contact-me {
@@ -284,12 +297,12 @@ input[type="submit"]:hover {
 }
 
 #sideBar img {
+  opacity: 0;
   float: right;
-  height: 200px;
+  height: 300px;
   border-radius: 5%;
-  opacity: 90%;
   border-radius: 5%;
-  box-shadow: 10px 10px #4f4846;
+  /* box-shadow: 10px 10px #4f4846; */
   animation: picLoad 1s;
 }
 
@@ -307,6 +320,7 @@ input[type="submit"]:hover {
 #main {
   grid-area: main;
   background-color: #a3bcb6;
+  color: white;
 }
 
 #main h1 {
@@ -666,10 +680,6 @@ input[type="submit"]:hover {
   margin-top: -80px;
 }
 
-.resumeBtn {
-  display: none;
-}
-
 #footer {
   grid-area: footer;
 }
@@ -736,9 +746,16 @@ input[type="submit"]:hover {
       "content8"
       "content9"
       "content10"
-      "resumeButton"
+      "resume"
       "contact-me"
       "footer";
+  }
+
+  #navBar,
+  #sideBar,
+  #main {
+    background-position-y: -80px;
+    background-position-x: 15%;
   }
 
   #main h1 {
@@ -898,35 +915,6 @@ input[type="submit"]:hover {
     100% {
       transform: translateY(0);
     }
-  }
-
-  #resume {
-    display: none;
-  }
-
-  #resume img {
-    display: none;
-  }
-
-  .resumeBtn {
-    display: flex;
-    justify-content: center;
-  }
-
-  #resumeButton {
-    border-color: #4f4846;
-    color: white;
-    border: 2px solid #4f4846;
-    background-color: #4f4846;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition-duration: 200ms;
-  }
-
-  #resumeButton:hover {
-    background: #726866;
   }
 
   #footer p {
