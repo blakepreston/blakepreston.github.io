@@ -937,7 +937,7 @@ input[type="submit"]:hover {
     background-position: top center;
     background-position-y: 70%;
     background-position-x: 30%;
-    margin: -1px;
+    /* margin: -1px; */
   }
 
   #sideBar {
