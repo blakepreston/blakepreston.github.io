@@ -233,7 +233,7 @@ html {
 #navBar,
 #sideBar,
 #main {
-  background-image: url("websiteBackground.JPG");
+  background-image: url("WebistePicFix.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: top center;
@@ -931,7 +931,7 @@ input[type="submit"]:hover {
   #navBar,
   #sideBar,
   #main {
-    background-image: url("websiteBackground.JPG");
+    background-image: url("WebistePicFix.jpg");
     background-attachment: initial;
     background-repeat: no-repeat;
     background-position: top center;
