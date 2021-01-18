@@ -233,7 +233,7 @@ html {
 #navBar,
 #sideBar,
 #main {
-  background-image: url("WebistePicFix.jpg");
+  background-image: url("images/WebistePicFix.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: top center;
@@ -402,42 +402,42 @@ input[type="submit"]:hover {
 }
 
 .pythonLogo {
-  background-image: url("pythonLogo.png");
+  background-image: url("images/pythonLogo.png");
   background-repeat: no-repeat;
   background-position: 5%;
   background-size: 40px;
 }
 
 .javaScriptLogo {
-  background-image: url("javaScriptLogo.png");
+  background-image: url("images/javaScriptLogo.png");
   background-repeat: no-repeat;
   background-position: 5%;
   background-size: 40px;
 }
 
 .JavaLogo {
-  background-image: url("JavaLogo.png");
+  background-image: url("images/JavaLogo.png");
   background-repeat: no-repeat;
   background-position: 5%;
   background-size: 40px;
 }
 
 .CsharpLogo {
-  background-image: url("CsharpLogo.png");
+  background-image: url("images/CsharpLogo.png");
   background-repeat: no-repeat;
   background-position: 5%;
   background-size: 40px;
 }
 
 .mySQL {
-  background-image: url("mySQL.png");
+  background-image: url("images/mySQL.png");
   background-repeat: no-repeat;
   background-position: 5%;
   background-size: 40px;
 }
 
 .gitLogo {
-  background-image: url("gitLogo.png");
+  background-image: url("images/gitLogo.png");
   background-repeat: no-repeat;
   background-position: 5%;
   background-size: 40px;
@@ -516,7 +516,7 @@ input[type="submit"]:hover {
 }
 
 #content4 button {
-  background-image: url(/githubLogo.png);
+  background-image: url(images/githubLogo.png);
   background-size: 30px;
   background-position: 1px;
   background-repeat: no-repeat;
@@ -769,42 +769,42 @@ input[type="submit"]:hover {
   }
 
   .pythonLogo {
-    background-image: url("pythonLogo.png");
+    background-image: url("images/pythonLogo.png");
     background-repeat: no-repeat;
     background-position: 45%;
     background-size: 40px;
   }
 
   .javaScriptLogo {
-    background-image: url("javaScriptLogo.png");
+    background-image: url("images/javaScriptLogo.png");
     background-repeat: no-repeat;
     background-position: 45%;
     background-size: 40px;
   }
 
   .JavaLogo {
-    background-image: url("JavaLogo.png");
+    background-image: url("images/JavaLogo.png");
     background-repeat: no-repeat;
     background-position: 45%;
     background-size: 40px;
   }
 
   .CsharpLogo {
-    background-image: url("CsharpLogo.png");
+    background-image: url("images/CsharpLogo.png");
     background-repeat: no-repeat;
     background-position: 45%;
     background-size: 40px;
   }
 
   .mySQL {
-    background-image: url("mySQL.png");
+    background-image: url("images/mySQL.png");
     background-repeat: no-repeat;
     background-position: 45%;
     background-size: 40px;
   }
 
   .gitLogo {
-    background-image: url("gitLogo.png");
+    background-image: url("images/gitLogo.png");
     background-repeat: no-repeat;
     background-position: 45%;
     background-size: 40px;
@@ -931,7 +931,7 @@ input[type="submit"]:hover {
   #navBar,
   #sideBar,
   #main {
-    background-image: url("WebistePicFix.jpg");
+    background-image: url("images/WebistePicFix.jpg");
     background-attachment: initial;
     background-repeat: no-repeat;
     background-position: top center;
