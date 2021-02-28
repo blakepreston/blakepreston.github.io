@@ -163,8 +163,8 @@ html {
   width: 50px;
   height: 6px;
   background: white;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.8);
+  border-radius: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
   transition: all 0.5s ease-in-out;
 }
 
@@ -175,8 +175,8 @@ html {
   width: 50px;
   height: 6px;
   background: white;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.8);
+  border-radius: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
   transition: all 0.5s ease-in-out;
 }
 
@@ -751,6 +751,10 @@ input[type="submit"]:hover {
       "resume"
       "contact-me"
       "footer";
+  }
+
+  html {
+    zoom: 60%;
   }
 
   #navBar,
