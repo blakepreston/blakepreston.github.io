@@ -11,6 +11,10 @@ html {
   scroll-behavior: smooth;
 }
 
+h1 {
+  font-weight: 800;
+}
+
 /******************************************/
 .projectContainer {
   width: 550px;
@@ -41,18 +45,18 @@ html {
 }
 
 .floydWarshall {
-  height: 220px;
+  height: 210px;
   margin-left: 12%;
 }
 
 .logisim {
-  height: 250px;
+  height: 240px;
   margin-left: 23%;
   width: 300px;
 }
 
 .carGame {
-  height: 250px;
+  height: 220px;
   margin-left: 31%;
   width: 215px;
 }
@@ -202,6 +206,7 @@ html {
 
 .menu-btn.open .menu-btn_hamburger::after {
   transform: rotate(-45deg) translate(35px, 35px);
+  box-shadow: none;
 }
 
 .wrapper {
@@ -394,7 +399,7 @@ input[type="submit"]:hover {
 
 #content2 li {
   list-style: none;
-  font-size: 18px;
+  font-size: 1.3em;
   padding: 20px;
   padding-left: 15%;
   display: inline-block;
@@ -491,16 +496,6 @@ input[type="submit"]:hover {
 
 #projects hr {
   width: 130px;
-  margin-left: auto;
-  margin-right: auto;
-  height: 15px;
-  background-color: #ebe8e1;
-  border: none;
-  margin-top: -38px;
-}
-
-#contact-me hr {
-  width: 180px;
   margin-left: auto;
   margin-right: auto;
   height: 15px;
@@ -680,6 +675,7 @@ input[type="submit"]:hover {
 #resume h1 {
   position: absolute;
   margin-top: -80px;
+  text-align: center;
 }
 
 #footer {
@@ -695,7 +691,7 @@ input[type="submit"]:hover {
   font-family: Calibre, "San Francisco", "SF Pro Text", Roboto, "Helvetica Neue",
     "Segoe UI", Arial, sans-serif;
   width: 200px;
-  height: 100vh;
+  height: 200vh;
   position: fixed;
   right: -200px;
   top: 0px;
@@ -765,53 +761,53 @@ input[type="submit"]:hover {
   }
 
   #main h1 {
-    font-size: 25px;
+    font-size: 2.2em;
   }
 
   #main p {
-    font-size: 20px;
+    font-size: 2em;
   }
 
   .pythonLogo {
     background-image: url("images/pythonLogo.png");
     background-repeat: no-repeat;
     background-position: 45%;
-    background-size: 40px;
+    background-size: 50px;
   }
 
   .javaScriptLogo {
     background-image: url("images/javaScriptLogo.png");
     background-repeat: no-repeat;
     background-position: 45%;
-    background-size: 40px;
+    background-size: 50px;
   }
 
   .JavaLogo {
     background-image: url("images/JavaLogo.png");
     background-repeat: no-repeat;
     background-position: 45%;
-    background-size: 40px;
+    background-size: 50px;
   }
 
   .CsharpLogo {
     background-image: url("images/CsharpLogo.png");
     background-repeat: no-repeat;
     background-position: 45%;
-    background-size: 40px;
+    background-size: 50px;
   }
 
   .mySQL {
     background-image: url("images/mySQL.png");
     background-repeat: no-repeat;
     background-position: 45%;
-    background-size: 40px;
+    background-size: 50px;
   }
 
   .gitLogo {
     background-image: url("images/gitLogo.png");
     background-repeat: no-repeat;
     background-position: 45%;
-    background-size: 40px;
+    background-size: 50px;
   }
 
   @keyframes content3 {
@@ -823,26 +819,6 @@ input[type="submit"]:hover {
       transform: translateY(0);
       opacity: 1;
     }
-  }
-
-  #contact-me hr {
-    width: 190px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 15px;
-    background-color: #ebe8e1;
-    border: none;
-    margin-top: -38px;
-  }
-
-  #projects hr {
-    width: 130px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 15px;
-    background-color: #ebe8e1;
-    border: none;
-    margin-top: -38px;
   }
 
   #main {
@@ -891,15 +867,23 @@ input[type="submit"]:hover {
     justify-content: center;
   }
 
+  #content1 h1 {
+    font-size: 2.2em;
+  }
+
   #content2 {
     padding-left: 10%;
     padding-right: 10%;
     justify-content: center;
   }
 
+  #content2 p {
+    font-size: 2em;
+  }
+
   #content2 li {
     padding-left: 45%;
-    font-size: 18px;
+    font-size: 2em;
   }
 
   #content3 {
@@ -912,6 +896,104 @@ input[type="submit"]:hover {
     margin: auto;
     margin-bottom: 50px;
     animation: socialLoad 400ms;
+  }
+
+  #projects h1 {
+    font-size: 2.2em;
+  }
+
+  #content4 h3 {
+    font-size: 2.2em;
+  }
+
+  #content4 p {
+    font-size: 1.4em;
+    margin-bottom: 0.2em;
+  }
+
+  #content4 button {
+    margin-top: -30px;
+  }
+
+  #content5 h3 {
+    font-size: 2.2em;
+  }
+
+  #content5 p {
+    font-size: 1.4em;
+    /* margin-bottom: 0.2em; */
+  }
+
+  #content6 h3 {
+    font-size: 2.2em;
+  }
+
+  #content6 p {
+    font-size: 1.4em;
+  }
+
+  #content6 button {
+    margin-top: 25px;
+  }
+
+  #content7 h3 {
+    font-size: 2.2em;
+  }
+
+  #content7 p {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+  }
+
+  #content7 button {
+    margin-top: -3em;
+  }
+
+  #content8 h3 {
+    font-size: 2.2em;
+  }
+
+  #content8 p {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+  }
+
+  #content8 button {
+    margin-bottom: -50px;
+  }
+
+  #content9 h3 {
+    font-size: 2.2em;
+  }
+
+  #content9 p {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+  }
+
+  #content9 h3 {
+    font-size: 2.2em;
+  }
+
+  #content10 h3 {
+    font-size: 2.2em;
+  }
+
+  #content10 p {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+  }
+
+  #content10 button {
+    margin-top: -25px;
+  }
+
+  #resume h1 {
+    font-size: 2.2em;
+  }
+
+  #contact-me h1 {
+    font-size: 2.2em;
   }
 
   @keyframes socialLoad {
